@@ -1,0 +1,12 @@
+digraph "adicionarAlimentos"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="adicionarAlimentos",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Função para adicionar um alimento ao ler um ficheiro txt."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="lerBaseDeDadosAlimentos",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Alimentos_8c.html#a625b2c6a386b874e19f6c2c43bfe2987",tooltip="Função que lê o txt de alimentos ao iniciar o programa e guarda numa lista ligada."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8c.html#a0ddf1224851353fc92bfbff6f499fa97",tooltip="Função principal que vai correr outras funções como (Ler base de dados / Menu Principal / Guardar Bas..."];
+}

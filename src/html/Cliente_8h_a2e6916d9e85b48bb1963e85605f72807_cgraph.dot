@@ -1,0 +1,10 @@
+digraph "visualizarCliente"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="visualizarCliente",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="funcao para visualizar cliente"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="encontrarCliente",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Cliente_8c.html#a39edc51899adccc37eef0c940d9b6573",tooltip="Funcao para encontrar um cliente."];
+}

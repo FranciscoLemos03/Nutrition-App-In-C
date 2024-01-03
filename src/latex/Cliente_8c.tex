@@ -1,0 +1,370 @@
+\hypertarget{Cliente_8c}{}\doxysection{LESI\+\_\+\+PI\+\_\+\+TP\+\_\+22531\+\_\+23006\+\_\+23131/\+Cliente.c File Reference}
+\label{Cliente_8c}\index{LESI\_PI\_TP\_22531\_23006\_23131/Cliente.c@{LESI\_PI\_TP\_22531\_23006\_23131/Cliente.c}}
+{\ttfamily \#include \char`\"{}Lista\+Ligada.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Cliente.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+Include dependency graph for Cliente.\+c\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{Cliente_8c_a54d989ea0fa3e3bc8ebb5801aec9631a}{guardar\+Normalcl}} (\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$lista)
+\begin{DoxyCompactList}\small\item\em Função que envia dados para o ficheiro txt. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Cliente_8c_a59bfb9bf8500f54f09e7674742811323}{guardar\+Binariocl}} (\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$lista)
+\begin{DoxyCompactList}\small\item\em Função que envia dados para o ficheiro txt em binario. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Cliente_8c_aad88adf90d69b058825b9f2e0c036a70}{guardar\+Tabuladorescl}} (\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$lista)
+\begin{DoxyCompactList}\small\item\em Função que envia dados para o ficheiro txt com tabs. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$ \mbox{\hyperlink{Cliente_8c_aaa662e3ea360cf6921fb7b06726f29ca}{ler\+Base\+De\+Dados}} ()
+\begin{DoxyCompactList}\small\item\em Função le as variaveis do ficheiro txt e guarda-\/as na lista. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Cliente_8c_adc66ae3dcedcc9ef1ff104db8372b5a3}{guardar\+Base\+De\+Dados}} (\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$lista)
+\begin{DoxyCompactList}\small\item\em Guarda as variaveis num ficheiro txt. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Cliente_8c_a8534cfc99af082b1a37f89b94e49a220}{libertar\+Memoria}} (\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$lista)
+\begin{DoxyCompactList}\small\item\em Liberta a memoria alocada pela lista e uso de recursao. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Cliente_8c_ad89f212646caf83baa49f642d41ccddf}{adicionar}} (\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$lista\+Cliente)
+\begin{DoxyCompactList}\small\item\em Funcao para pedir dados do cliente. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$ \mbox{\hyperlink{Cliente_8c_a55d8b247ca9866cff361fdbc25e28331}{adicionar\+Cliente}} (\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$lista\+Cliente, \mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$novo\+Cliente)
+\begin{DoxyCompactList}\small\item\em Procedimento para adicionar um cliente no espaço null. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{Cliente_8c_a0b0a7cfa55c16f954cae709a1223b2aa}{obter\+Id\+Aleatorio}} (\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$lista\+Clientes)
+\begin{DoxyCompactList}\small\item\em Obter um id aleatorio. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{Cliente_8c_adc97a8443ceb4650d6ea6940e1198b06}{existe\+Cliente}} (\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$lista, int id)
+\begin{DoxyCompactList}\small\item\em função que verifica se existe cliente \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Cliente_8c_a355cd4cc644c71c87eb4061e9dac5649}{editar}} (\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$lista\+Cliente)
+\begin{DoxyCompactList}\small\item\em funcao para editar um cliente \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Cliente_8c_adba015396e99eab3eb7e9affcf482234}{editar\+Cliente}} (\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$lista\+Cliente, \mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$cliente\+Escolhido)
+\begin{DoxyCompactList}\small\item\em Dado um cliente, pede-\/se os dados para edita-\/lo. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$ \mbox{\hyperlink{Cliente_8c_a39edc51899adccc37eef0c940d9b6573}{encontrar\+Cliente}} (\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$lista, int id)
+\begin{DoxyCompactList}\small\item\em Funcao para encontrar um cliente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Cliente_8c_a5b4c008881777c2b5013db5daeb21258}{remover}} (\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$lista\+Cliente)
+\begin{DoxyCompactList}\small\item\em funcao para remover o cliente \end{DoxyCompactList}\item 
+\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$ \mbox{\hyperlink{Cliente_8c_a617f941db3ba9758f14191542451d835}{remover\+Cliente}} (\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$lista, int id)
+\begin{DoxyCompactList}\small\item\em Função para remover um cliente da lista. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Cliente_8c_acb183c04e229e583d7e957dec69b2760}{visualizar\+Cliente}} (\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$lista\+Cliente)
+\begin{DoxyCompactList}\small\item\em funcao para visualizar cliente \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{Cliente_8c_ad89f212646caf83baa49f642d41ccddf}\label{Cliente_8c_ad89f212646caf83baa49f642d41ccddf}} 
+\index{Cliente.c@{Cliente.c}!adicionar@{adicionar}}
+\index{adicionar@{adicionar}!Cliente.c@{Cliente.c}}
+\doxysubsubsection{\texorpdfstring{adicionar()}{adicionar()}}
+{\footnotesize\ttfamily void adicionar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$}]{lista\+Cliente }\end{DoxyParamCaption})}
+
+
+
+Funcao para pedir dados do cliente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Cliente} & \\
+\hline
+\end{DoxyParams}
+Variavel do tipo Cliente que retorna um ponteiro para o espaço alocado
+
+gerar um id aleatorio
+
+Vai percorrer a lista ate encontrar um espaço nullHere is the call graph for this function\+:
+% FIG 1
+Here is the caller graph for this function\+:
+% FIG 2
+\mbox{\Hypertarget{Cliente_8c_a55d8b247ca9866cff361fdbc25e28331}\label{Cliente_8c_a55d8b247ca9866cff361fdbc25e28331}} 
+\index{Cliente.c@{Cliente.c}!adicionarCliente@{adicionarCliente}}
+\index{adicionarCliente@{adicionarCliente}!Cliente.c@{Cliente.c}}
+\doxysubsubsection{\texorpdfstring{adicionarCliente()}{adicionarCliente()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}}$\ast$ adicionar\+Cliente (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$}]{lista\+Cliente,  }\item[{\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$}]{novo\+Cliente }\end{DoxyParamCaption})}
+
+
+
+Procedimento para adicionar um cliente no espaço null. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Cliente} & \\
+\hline
+{\em novo\+Cliente} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Cliente$\ast$ 
+\end{DoxyReturn}
+Se a lista for NULL, devolve o meu novo cliente
+
+Se lista for diferente de NULL, o proximo cliente vai continuar a procurar um espaco \char`\"{}\+NULL\char`\"{}
+
+Da return a lista depois da atualizacaoHere is the caller graph for this function\+:
+% FIG 3
+\mbox{\Hypertarget{Cliente_8c_a355cd4cc644c71c87eb4061e9dac5649}\label{Cliente_8c_a355cd4cc644c71c87eb4061e9dac5649}} 
+\index{Cliente.c@{Cliente.c}!editar@{editar}}
+\index{editar@{editar}!Cliente.c@{Cliente.c}}
+\doxysubsubsection{\texorpdfstring{editar()}{editar()}}
+{\footnotesize\ttfamily void editar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$}]{lista\+Cliente }\end{DoxyParamCaption})}
+
+
+
+funcao para editar um cliente 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Cliente} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 4
+Here is the caller graph for this function\+:
+% FIG 5
+\mbox{\Hypertarget{Cliente_8c_adba015396e99eab3eb7e9affcf482234}\label{Cliente_8c_adba015396e99eab3eb7e9affcf482234}} 
+\index{Cliente.c@{Cliente.c}!editarCliente@{editarCliente}}
+\index{editarCliente@{editarCliente}!Cliente.c@{Cliente.c}}
+\doxysubsubsection{\texorpdfstring{editarCliente()}{editarCliente()}}
+{\footnotesize\ttfamily void editar\+Cliente (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$}]{lista\+Cliente,  }\item[{\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$}]{cliente\+Escolhido }\end{DoxyParamCaption})}
+
+
+
+Dado um cliente, pede-\/se os dados para edita-\/lo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Cliente} & \\
+\hline
+{\em cliente\+Escolhido} & \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 6
+\mbox{\Hypertarget{Cliente_8c_a39edc51899adccc37eef0c940d9b6573}\label{Cliente_8c_a39edc51899adccc37eef0c940d9b6573}} 
+\index{Cliente.c@{Cliente.c}!encontrarCliente@{encontrarCliente}}
+\index{encontrarCliente@{encontrarCliente}!Cliente.c@{Cliente.c}}
+\doxysubsubsection{\texorpdfstring{encontrarCliente()}{encontrarCliente()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}}$\ast$ encontrar\+Cliente (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$}]{lista,  }\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Funcao para encontrar um cliente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista} & \\
+\hline
+{\em id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Cliente$\ast$ 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 7
+\mbox{\Hypertarget{Cliente_8c_adc97a8443ceb4650d6ea6940e1198b06}\label{Cliente_8c_adc97a8443ceb4650d6ea6940e1198b06}} 
+\index{Cliente.c@{Cliente.c}!existeCliente@{existeCliente}}
+\index{existeCliente@{existeCliente}!Cliente.c@{Cliente.c}}
+\doxysubsubsection{\texorpdfstring{existeCliente()}{existeCliente()}}
+{\footnotesize\ttfamily bool existe\+Cliente (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$}]{lista,  }\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+função que verifica se existe cliente 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista} & \\
+\hline
+{\em id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 8
+\mbox{\Hypertarget{Cliente_8c_adc66ae3dcedcc9ef1ff104db8372b5a3}\label{Cliente_8c_adc66ae3dcedcc9ef1ff104db8372b5a3}} 
+\index{Cliente.c@{Cliente.c}!guardarBaseDeDados@{guardarBaseDeDados}}
+\index{guardarBaseDeDados@{guardarBaseDeDados}!Cliente.c@{Cliente.c}}
+\doxysubsubsection{\texorpdfstring{guardarBaseDeDados()}{guardarBaseDeDados()}}
+{\footnotesize\ttfamily void guardar\+Base\+De\+Dados (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$}]{lista }\end{DoxyParamCaption})}
+
+
+
+Guarda as variaveis num ficheiro txt. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 9
+Here is the caller graph for this function\+:
+% FIG 10
+\mbox{\Hypertarget{Cliente_8c_a59bfb9bf8500f54f09e7674742811323}\label{Cliente_8c_a59bfb9bf8500f54f09e7674742811323}} 
+\index{Cliente.c@{Cliente.c}!guardarBinariocl@{guardarBinariocl}}
+\index{guardarBinariocl@{guardarBinariocl}!Cliente.c@{Cliente.c}}
+\doxysubsubsection{\texorpdfstring{guardarBinariocl()}{guardarBinariocl()}}
+{\footnotesize\ttfamily void guardar\+Binariocl (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$}]{lista }\end{DoxyParamCaption})}
+
+
+
+Função que envia dados para o ficheiro txt em binario. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista} & \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 11
+\mbox{\Hypertarget{Cliente_8c_a54d989ea0fa3e3bc8ebb5801aec9631a}\label{Cliente_8c_a54d989ea0fa3e3bc8ebb5801aec9631a}} 
+\index{Cliente.c@{Cliente.c}!guardarNormalcl@{guardarNormalcl}}
+\index{guardarNormalcl@{guardarNormalcl}!Cliente.c@{Cliente.c}}
+\doxysubsubsection{\texorpdfstring{guardarNormalcl()}{guardarNormalcl()}}
+{\footnotesize\ttfamily void guardar\+Normalcl (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$}]{lista }\end{DoxyParamCaption})}
+
+
+
+Função que envia dados para o ficheiro txt. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista} & \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 12
+\mbox{\Hypertarget{Cliente_8c_aad88adf90d69b058825b9f2e0c036a70}\label{Cliente_8c_aad88adf90d69b058825b9f2e0c036a70}} 
+\index{Cliente.c@{Cliente.c}!guardarTabuladorescl@{guardarTabuladorescl}}
+\index{guardarTabuladorescl@{guardarTabuladorescl}!Cliente.c@{Cliente.c}}
+\doxysubsubsection{\texorpdfstring{guardarTabuladorescl()}{guardarTabuladorescl()}}
+{\footnotesize\ttfamily void guardar\+Tabuladorescl (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$}]{lista }\end{DoxyParamCaption})}
+
+
+
+Função que envia dados para o ficheiro txt com tabs. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista} & \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 13
+\mbox{\Hypertarget{Cliente_8c_aaa662e3ea360cf6921fb7b06726f29ca}\label{Cliente_8c_aaa662e3ea360cf6921fb7b06726f29ca}} 
+\index{Cliente.c@{Cliente.c}!lerBaseDeDados@{lerBaseDeDados}}
+\index{lerBaseDeDados@{lerBaseDeDados}!Cliente.c@{Cliente.c}}
+\doxysubsubsection{\texorpdfstring{lerBaseDeDados()}{lerBaseDeDados()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}}$\ast$ ler\+Base\+De\+Dados (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Função le as variaveis do ficheiro txt e guarda-\/as na lista. 
+
+\begin{DoxyReturn}{Returns}
+Cliente$\ast$ 
+\end{DoxyReturn}
+Verificar se existe na diretoria
+
+Iterar a cada linha do ficheiro a fim de atribuir a um objeto e adiciona-\/lo a uma listaHere is the call graph for this function\+:
+% FIG 14
+Here is the caller graph for this function\+:
+% FIG 15
+\mbox{\Hypertarget{Cliente_8c_a8534cfc99af082b1a37f89b94e49a220}\label{Cliente_8c_a8534cfc99af082b1a37f89b94e49a220}} 
+\index{Cliente.c@{Cliente.c}!libertarMemoria@{libertarMemoria}}
+\index{libertarMemoria@{libertarMemoria}!Cliente.c@{Cliente.c}}
+\doxysubsubsection{\texorpdfstring{libertarMemoria()}{libertarMemoria()}}
+{\footnotesize\ttfamily void libertar\+Memoria (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$}]{lista }\end{DoxyParamCaption})}
+
+
+
+Liberta a memoria alocada pela lista e uso de recursao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista} & \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 16
+\mbox{\Hypertarget{Cliente_8c_a0b0a7cfa55c16f954cae709a1223b2aa}\label{Cliente_8c_a0b0a7cfa55c16f954cae709a1223b2aa}} 
+\index{Cliente.c@{Cliente.c}!obterIdAleatorio@{obterIdAleatorio}}
+\index{obterIdAleatorio@{obterIdAleatorio}!Cliente.c@{Cliente.c}}
+\doxysubsubsection{\texorpdfstring{obterIdAleatorio()}{obterIdAleatorio()}}
+{\footnotesize\ttfamily int obter\+Id\+Aleatorio (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$}]{lista\+Clientes }\end{DoxyParamCaption})}
+
+
+
+Obter um id aleatorio. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Clientes} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 17
+Here is the caller graph for this function\+:
+% FIG 18
+\mbox{\Hypertarget{Cliente_8c_a5b4c008881777c2b5013db5daeb21258}\label{Cliente_8c_a5b4c008881777c2b5013db5daeb21258}} 
+\index{Cliente.c@{Cliente.c}!remover@{remover}}
+\index{remover@{remover}!Cliente.c@{Cliente.c}}
+\doxysubsubsection{\texorpdfstring{remover()}{remover()}}
+{\footnotesize\ttfamily void remover (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$}]{lista\+Cliente }\end{DoxyParamCaption})}
+
+
+
+funcao para remover o cliente 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Cliente} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 19
+Here is the caller graph for this function\+:
+% FIG 20
+\mbox{\Hypertarget{Cliente_8c_a617f941db3ba9758f14191542451d835}\label{Cliente_8c_a617f941db3ba9758f14191542451d835}} 
+\index{Cliente.c@{Cliente.c}!removerCliente@{removerCliente}}
+\index{removerCliente@{removerCliente}!Cliente.c@{Cliente.c}}
+\doxysubsubsection{\texorpdfstring{removerCliente()}{removerCliente()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}}$\ast$ remover\+Cliente (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$}]{lista,  }\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Função para remover um cliente da lista. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista} & \\
+\hline
+{\em id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Cliente$\ast$ 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 21
+\mbox{\Hypertarget{Cliente_8c_acb183c04e229e583d7e957dec69b2760}\label{Cliente_8c_acb183c04e229e583d7e957dec69b2760}} 
+\index{Cliente.c@{Cliente.c}!visualizarCliente@{visualizarCliente}}
+\index{visualizarCliente@{visualizarCliente}!Cliente.c@{Cliente.c}}
+\doxysubsubsection{\texorpdfstring{visualizarCliente()}{visualizarCliente()}}
+{\footnotesize\ttfamily void visualizar\+Cliente (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$}]{lista\+Cliente }\end{DoxyParamCaption})}
+
+
+
+funcao para visualizar cliente 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Cliente} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 22
+Here is the caller graph for this function\+:
+% FIG 23
