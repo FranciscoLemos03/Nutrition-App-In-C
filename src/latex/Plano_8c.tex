@@ -1,0 +1,276 @@
+\hypertarget{Plano_8c}{}\doxysection{LESI\+\_\+\+PI\+\_\+\+TP\+\_\+22531\+\_\+23006\+\_\+23131/\+Plano.c File Reference}
+\label{Plano_8c}\index{LESI\_PI\_TP\_22531\_23006\_23131/Plano.c@{LESI\_PI\_TP\_22531\_23006\_23131/Plano.c}}
+{\ttfamily \#include \char`\"{}Lista\+Ligada.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Plano.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Cliente.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+Include dependency graph for Plano.\+c\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{Plano_8c_a23e03ae8e58e37ab0cae69446f94d813}{guardar\+Normal}} (\mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$lista\+Plano)
+\begin{DoxyCompactList}\small\item\em Função que envia dados para o ficheiro txt. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Plano_8c_aeacc68da14db63b7d170de88591b882e}{guardar\+Binario}} (\mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$lista\+Plano)
+\begin{DoxyCompactList}\small\item\em Função que envia dados para o ficheiro txt em binario. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Plano_8c_a86347fe5b204f640d4c54fa3b17ffea3}{guardar\+Tabuladores}} (\mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$lista\+Plano)
+\begin{DoxyCompactList}\small\item\em Função que envia dados para o ficheiro txt com tabs. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$ \mbox{\hyperlink{Plano_8c_abaa4d495f8405ee9943bd58dda5a2289}{ler\+Base\+De\+Dados\+Plano}} ()
+\begin{DoxyCompactList}\small\item\em Função que lê o txt de Planos ao iniciar o programa e guarda numa lista ligada. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Plano_8c_a261b546d1331a435d1bc9c56cd1439d6}{guardar\+Base\+De\+Dados\+Plano}} (\mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$lista\+Plano)
+\begin{DoxyCompactList}\small\item\em Função que chama as 3 funções de guardar os dados. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Plano_8c_a66381e8bb2ba01e2329f909200d6d647}{add\+Plano}} (\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$lista\+Cliente, \mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$lista\+Plano)
+\begin{DoxyCompactList}\small\item\em Função que pede os dados do Plano. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$ \mbox{\hyperlink{Plano_8c_a1fe56b50c9b5bdcac4d43dd692dc1ba9}{introduzir\+Plano}} (\mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$lista\+Plano, \mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$novo\+Plano)
+\begin{DoxyCompactList}\small\item\em Função para adicionar um Plano. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$ \mbox{\hyperlink{Plano_8c_af1eaf3803e08f72e3f789f290e47bde7}{adicionar\+Plano}} (\mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$lista\+Plano, \mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$novo\+Plano)
+\begin{DoxyCompactList}\small\item\em Função para adicionar um Plano ao ler a base de dados. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Plano_8c_aee7a177ba0b98e01eb5d65b8915653ff}{libertar\+Memoria\+Plano}} (\mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$lista)
+\begin{DoxyCompactList}\small\item\em Liberta a memoria alocada pela lista e uso de recursao. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Plano_8c_ac993883c82378d588ddb7d0741e6ab20}{Listar\+Planos\+Por\+Cliente}} (\mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$lista\+Plano, \mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$lista\+Cliente)
+\begin{DoxyCompactList}\small\item\em Função para listar Planos que estão entre 2 datas pedidas e que são de uma certa refeição. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Plano_8c_a5185846953b43d669f6deb0e55746e30}{Media\+Cal\+Por\+Cliente}} (\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$lista\+Cliente, \mbox{\hyperlink{ListaLigada_8h_a56c039e15457ff77738522e79f80d44b}{Alimentos}} $\ast$lista\+Alimentos)
+\begin{DoxyCompactList}\small\item\em Função que faz a media de calorias de todos os clientes entre 2 datas pedidas. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Plano_8c_a1914087d94492bf067a261390d412c8b}{Tabela\+Dados}} (\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$lista\+Cliente, \mbox{\hyperlink{ListaLigada_8h_a56c039e15457ff77738522e79f80d44b}{Alimentos}} $\ast$lista\+Alimentos, \mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$lista\+Plano)
+\begin{DoxyCompactList}\small\item\em Função que faz uma tabela com todos os Planos e com as calorias consumidas. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{Plano_8c_a66381e8bb2ba01e2329f909200d6d647}\label{Plano_8c_a66381e8bb2ba01e2329f909200d6d647}} 
+\index{Plano.c@{Plano.c}!addPlano@{addPlano}}
+\index{addPlano@{addPlano}!Plano.c@{Plano.c}}
+\doxysubsubsection{\texorpdfstring{addPlano()}{addPlano()}}
+{\footnotesize\ttfamily void add\+Plano (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$}]{lista\+Cliente,  }\item[{\mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$}]{lista\+Plano }\end{DoxyParamCaption})}
+
+
+
+Função que pede os dados do Plano. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Cliente} & \\
+\hline
+{\em lista\+Plano} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 1
+Here is the caller graph for this function\+:
+% FIG 2
+\mbox{\Hypertarget{Plano_8c_af1eaf3803e08f72e3f789f290e47bde7}\label{Plano_8c_af1eaf3803e08f72e3f789f290e47bde7}} 
+\index{Plano.c@{Plano.c}!adicionarPlano@{adicionarPlano}}
+\index{adicionarPlano@{adicionarPlano}!Plano.c@{Plano.c}}
+\doxysubsubsection{\texorpdfstring{adicionarPlano()}{adicionarPlano()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}}$\ast$ adicionar\+Plano (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$}]{lista\+Plano,  }\item[{\mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$}]{novo\+Plano }\end{DoxyParamCaption})}
+
+
+
+Função para adicionar um Plano ao ler a base de dados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Plano} & \\
+\hline
+{\em novo\+Plano} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Plano$\ast$ 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 3
+\mbox{\Hypertarget{Plano_8c_a261b546d1331a435d1bc9c56cd1439d6}\label{Plano_8c_a261b546d1331a435d1bc9c56cd1439d6}} 
+\index{Plano.c@{Plano.c}!guardarBaseDeDadosPlano@{guardarBaseDeDadosPlano}}
+\index{guardarBaseDeDadosPlano@{guardarBaseDeDadosPlano}!Plano.c@{Plano.c}}
+\doxysubsubsection{\texorpdfstring{guardarBaseDeDadosPlano()}{guardarBaseDeDadosPlano()}}
+{\footnotesize\ttfamily void guardar\+Base\+De\+Dados\+Plano (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$}]{lista\+Plano }\end{DoxyParamCaption})}
+
+
+
+Função que chama as 3 funções de guardar os dados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Plano} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 4
+Here is the caller graph for this function\+:
+% FIG 5
+\mbox{\Hypertarget{Plano_8c_aeacc68da14db63b7d170de88591b882e}\label{Plano_8c_aeacc68da14db63b7d170de88591b882e}} 
+\index{Plano.c@{Plano.c}!guardarBinario@{guardarBinario}}
+\index{guardarBinario@{guardarBinario}!Plano.c@{Plano.c}}
+\doxysubsubsection{\texorpdfstring{guardarBinario()}{guardarBinario()}}
+{\footnotesize\ttfamily void guardar\+Binario (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$}]{lista\+Plano }\end{DoxyParamCaption})}
+
+
+
+Função que envia dados para o ficheiro txt em binario. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Plano} & \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 6
+\mbox{\Hypertarget{Plano_8c_a23e03ae8e58e37ab0cae69446f94d813}\label{Plano_8c_a23e03ae8e58e37ab0cae69446f94d813}} 
+\index{Plano.c@{Plano.c}!guardarNormal@{guardarNormal}}
+\index{guardarNormal@{guardarNormal}!Plano.c@{Plano.c}}
+\doxysubsubsection{\texorpdfstring{guardarNormal()}{guardarNormal()}}
+{\footnotesize\ttfamily void guardar\+Normal (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$}]{lista\+Plano }\end{DoxyParamCaption})}
+
+
+
+Função que envia dados para o ficheiro txt. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Plano} & \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 7
+\mbox{\Hypertarget{Plano_8c_a86347fe5b204f640d4c54fa3b17ffea3}\label{Plano_8c_a86347fe5b204f640d4c54fa3b17ffea3}} 
+\index{Plano.c@{Plano.c}!guardarTabuladores@{guardarTabuladores}}
+\index{guardarTabuladores@{guardarTabuladores}!Plano.c@{Plano.c}}
+\doxysubsubsection{\texorpdfstring{guardarTabuladores()}{guardarTabuladores()}}
+{\footnotesize\ttfamily void guardar\+Tabuladores (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$}]{lista\+Plano }\end{DoxyParamCaption})}
+
+
+
+Função que envia dados para o ficheiro txt com tabs. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Plano} & \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 8
+\mbox{\Hypertarget{Plano_8c_a1fe56b50c9b5bdcac4d43dd692dc1ba9}\label{Plano_8c_a1fe56b50c9b5bdcac4d43dd692dc1ba9}} 
+\index{Plano.c@{Plano.c}!introduzirPlano@{introduzirPlano}}
+\index{introduzirPlano@{introduzirPlano}!Plano.c@{Plano.c}}
+\doxysubsubsection{\texorpdfstring{introduzirPlano()}{introduzirPlano()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}}$\ast$ introduzir\+Plano (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$}]{lista\+Plano,  }\item[{\mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$}]{novo\+Plano }\end{DoxyParamCaption})}
+
+
+
+Função para adicionar um Plano. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Plano} & \\
+\hline
+{\em novo\+Plano} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Plano$\ast$ 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 9
+\mbox{\Hypertarget{Plano_8c_abaa4d495f8405ee9943bd58dda5a2289}\label{Plano_8c_abaa4d495f8405ee9943bd58dda5a2289}} 
+\index{Plano.c@{Plano.c}!lerBaseDeDadosPlano@{lerBaseDeDadosPlano}}
+\index{lerBaseDeDadosPlano@{lerBaseDeDadosPlano}!Plano.c@{Plano.c}}
+\doxysubsubsection{\texorpdfstring{lerBaseDeDadosPlano()}{lerBaseDeDadosPlano()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}}$\ast$ ler\+Base\+De\+Dados\+Plano (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Função que lê o txt de Planos ao iniciar o programa e guarda numa lista ligada. 
+
+\begin{DoxyReturn}{Returns}
+Plano$\ast$ 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 10
+Here is the caller graph for this function\+:
+% FIG 11
+\mbox{\Hypertarget{Plano_8c_aee7a177ba0b98e01eb5d65b8915653ff}\label{Plano_8c_aee7a177ba0b98e01eb5d65b8915653ff}} 
+\index{Plano.c@{Plano.c}!libertarMemoriaPlano@{libertarMemoriaPlano}}
+\index{libertarMemoriaPlano@{libertarMemoriaPlano}!Plano.c@{Plano.c}}
+\doxysubsubsection{\texorpdfstring{libertarMemoriaPlano()}{libertarMemoriaPlano()}}
+{\footnotesize\ttfamily void libertar\+Memoria\+Plano (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$}]{lista }\end{DoxyParamCaption})}
+
+
+
+Liberta a memoria alocada pela lista e uso de recursao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista} & \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 12
+\mbox{\Hypertarget{Plano_8c_ac993883c82378d588ddb7d0741e6ab20}\label{Plano_8c_ac993883c82378d588ddb7d0741e6ab20}} 
+\index{Plano.c@{Plano.c}!ListarPlanosPorCliente@{ListarPlanosPorCliente}}
+\index{ListarPlanosPorCliente@{ListarPlanosPorCliente}!Plano.c@{Plano.c}}
+\doxysubsubsection{\texorpdfstring{ListarPlanosPorCliente()}{ListarPlanosPorCliente()}}
+{\footnotesize\ttfamily void Listar\+Planos\+Por\+Cliente (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$}]{lista\+Plano,  }\item[{\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$}]{lista\+Cliente }\end{DoxyParamCaption})}
+
+
+
+Função para listar Planos que estão entre 2 datas pedidas e que são de uma certa refeição. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Plano} & \\
+\hline
+{\em lista\+Cliente} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 13
+Here is the caller graph for this function\+:
+% FIG 14
+\mbox{\Hypertarget{Plano_8c_a5185846953b43d669f6deb0e55746e30}\label{Plano_8c_a5185846953b43d669f6deb0e55746e30}} 
+\index{Plano.c@{Plano.c}!MediaCalPorCliente@{MediaCalPorCliente}}
+\index{MediaCalPorCliente@{MediaCalPorCliente}!Plano.c@{Plano.c}}
+\doxysubsubsection{\texorpdfstring{MediaCalPorCliente()}{MediaCalPorCliente()}}
+{\footnotesize\ttfamily void Media\+Cal\+Por\+Cliente (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$}]{lista\+Cliente,  }\item[{\mbox{\hyperlink{ListaLigada_8h_a56c039e15457ff77738522e79f80d44b}{Alimentos}} $\ast$}]{lista\+Alimentos }\end{DoxyParamCaption})}
+
+
+
+Função que faz a media de calorias de todos os clientes entre 2 datas pedidas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Cliente} & \\
+\hline
+{\em lista\+Alimentos} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 15
+Here is the caller graph for this function\+:
+% FIG 16
+\mbox{\Hypertarget{Plano_8c_a1914087d94492bf067a261390d412c8b}\label{Plano_8c_a1914087d94492bf067a261390d412c8b}} 
+\index{Plano.c@{Plano.c}!TabelaDados@{TabelaDados}}
+\index{TabelaDados@{TabelaDados}!Plano.c@{Plano.c}}
+\doxysubsubsection{\texorpdfstring{TabelaDados()}{TabelaDados()}}
+{\footnotesize\ttfamily void Tabela\+Dados (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$}]{lista\+Cliente,  }\item[{\mbox{\hyperlink{ListaLigada_8h_a56c039e15457ff77738522e79f80d44b}{Alimentos}} $\ast$}]{lista\+Alimentos,  }\item[{\mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$}]{lista\+Plano }\end{DoxyParamCaption})}
+
+
+
+Função que faz uma tabela com todos os Planos e com as calorias consumidas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Cliente} & \\
+\hline
+{\em lista\+Alimentos} & \\
+\hline
+{\em lista\+Plano} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 17
+Here is the caller graph for this function\+:
+% FIG 18

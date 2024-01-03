@@ -1,0 +1,202 @@
+\hypertarget{Alimentos_8h}{}\doxysection{LESI\+\_\+\+PI\+\_\+\+TP\+\_\+22531\+\_\+23006\+\_\+23131/\+Alimentos.h File Reference}
+\label{Alimentos_8h}\index{LESI\_PI\_TP\_22531\_23006\_23131/Alimentos.h@{LESI\_PI\_TP\_22531\_23006\_23131/Alimentos.h}}
+This graph shows which files directly or indirectly include this file\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{ListaLigada_8h_a56c039e15457ff77738522e79f80d44b}{Alimentos}} $\ast$ \mbox{\hyperlink{Alimentos_8h_a625b2c6a386b874e19f6c2c43bfe2987}{ler\+Base\+De\+Dados\+Alimentos}} ()
+\begin{DoxyCompactList}\small\item\em Função que lê o txt de alimentos ao iniciar o programa e guarda numa lista ligada. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Alimentos_8h_a87f34ee445781afacfb2144a247e2982}{guardar\+Base\+De\+Dados\+Alimentos}} (\mbox{\hyperlink{ListaLigada_8h_a56c039e15457ff77738522e79f80d44b}{Alimentos}} $\ast$)
+\begin{DoxyCompactList}\small\item\em Função que chama as 3 funções de guardar ficheiros. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Alimentos_8h_a73549733f49c34f26c8e945ff715165c}{add\+Alimento}} (\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$, \mbox{\hyperlink{ListaLigada_8h_a56c039e15457ff77738522e79f80d44b}{Alimentos}} $\ast$)
+\begin{DoxyCompactList}\small\item\em Função que pede os dados para adicionar um Alimento. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{ListaLigada_8h_a56c039e15457ff77738522e79f80d44b}{Alimentos}} $\ast$ \mbox{\hyperlink{Alimentos_8h_a260ebc5cdf94b1f6de4cb5a50da40ddf}{adicionar\+Alimentos}} (\mbox{\hyperlink{ListaLigada_8h_a56c039e15457ff77738522e79f80d44b}{Alimentos}} $\ast$, \mbox{\hyperlink{ListaLigada_8h_a56c039e15457ff77738522e79f80d44b}{Alimentos}} $\ast$)
+\begin{DoxyCompactList}\small\item\em Função para adicionar um alimento ao ler um ficheiro txt. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{ListaLigada_8h_a56c039e15457ff77738522e79f80d44b}{Alimentos}} $\ast$ \mbox{\hyperlink{Alimentos_8h_ae33dd0953bc23c200db95aac670aff81}{introduzir\+Alimento}} (\mbox{\hyperlink{ListaLigada_8h_a56c039e15457ff77738522e79f80d44b}{Alimentos}} $\ast$, \mbox{\hyperlink{ListaLigada_8h_a56c039e15457ff77738522e79f80d44b}{Alimentos}} $\ast$)
+\begin{DoxyCompactList}\small\item\em Função para adicionar um cliente. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Alimentos_8h_a486db8b4d75dd1ee0541f7009958296d}{libertar\+Memoria\+Alimentos}} (\mbox{\hyperlink{ListaLigada_8h_a56c039e15457ff77738522e79f80d44b}{Alimentos}} $\ast$)
+\begin{DoxyCompactList}\small\item\em Liberta a memoria alocada pela lista \& Uso de recursao. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Alimentos_8h_af3e4edd38827972d10efcdc29dd80798}{Num\+Pacientes\+Passam\+Cals}} (\mbox{\hyperlink{ListaLigada_8h_a56c039e15457ff77738522e79f80d44b}{Alimentos}} $\ast$, \mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$)
+\begin{DoxyCompactList}\small\item\em Função que vê quantos Pacientes passaram o numero de calorias introduzidas. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Alimentos_8h_af66fa7b0cf5aefc93cf5b2793a278b81}{Pacientes\+Com\+Refeicao\+Forade\+Cals}} (\mbox{\hyperlink{ListaLigada_8h_a56c039e15457ff77738522e79f80d44b}{Alimentos}} $\ast$, \mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$, \mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$)
+\begin{DoxyCompactList}\small\item\em Função que Lista todos os Pacientes fora de Calorias em uma certa refeição, por ordem decrescente. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{Alimentos_8h_abbffb1b4b411642e1d43bfec16b29fb0}{data\+Esta\+Entre}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{Alimentos_8h_a73549733f49c34f26c8e945ff715165c}\label{Alimentos_8h_a73549733f49c34f26c8e945ff715165c}} 
+\index{Alimentos.h@{Alimentos.h}!addAlimento@{addAlimento}}
+\index{addAlimento@{addAlimento}!Alimentos.h@{Alimentos.h}}
+\doxysubsubsection{\texorpdfstring{addAlimento()}{addAlimento()}}
+{\footnotesize\ttfamily void add\+Alimento (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$}]{lista\+Cliente,  }\item[{\mbox{\hyperlink{ListaLigada_8h_a56c039e15457ff77738522e79f80d44b}{Alimentos}} $\ast$}]{lista\+Alimentos }\end{DoxyParamCaption})}
+
+
+
+Função que pede os dados para adicionar um Alimento. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Cliente} & \\
+\hline
+{\em lista\+Alimentos} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 1
+Here is the caller graph for this function\+:
+% FIG 2
+\mbox{\Hypertarget{Alimentos_8h_a260ebc5cdf94b1f6de4cb5a50da40ddf}\label{Alimentos_8h_a260ebc5cdf94b1f6de4cb5a50da40ddf}} 
+\index{Alimentos.h@{Alimentos.h}!adicionarAlimentos@{adicionarAlimentos}}
+\index{adicionarAlimentos@{adicionarAlimentos}!Alimentos.h@{Alimentos.h}}
+\doxysubsubsection{\texorpdfstring{adicionarAlimentos()}{adicionarAlimentos()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{ListaLigada_8h_a56c039e15457ff77738522e79f80d44b}{Alimentos}}$\ast$ adicionar\+Alimentos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a56c039e15457ff77738522e79f80d44b}{Alimentos}} $\ast$}]{lista\+Alimentos,  }\item[{\mbox{\hyperlink{ListaLigada_8h_a56c039e15457ff77738522e79f80d44b}{Alimentos}} $\ast$}]{novo\+Alimento }\end{DoxyParamCaption})}
+
+
+
+Função para adicionar um alimento ao ler um ficheiro txt. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Alimentos} & \\
+\hline
+{\em novo\+Alimento} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Alimentos$\ast$ 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 3
+\mbox{\Hypertarget{Alimentos_8h_abbffb1b4b411642e1d43bfec16b29fb0}\label{Alimentos_8h_abbffb1b4b411642e1d43bfec16b29fb0}} 
+\index{Alimentos.h@{Alimentos.h}!dataEstaEntre@{dataEstaEntre}}
+\index{dataEstaEntre@{dataEstaEntre}!Alimentos.h@{Alimentos.h}}
+\doxysubsubsection{\texorpdfstring{dataEstaEntre()}{dataEstaEntre()}}
+{\footnotesize\ttfamily int data\+Esta\+Entre (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{Alimentos_8h_a87f34ee445781afacfb2144a247e2982}\label{Alimentos_8h_a87f34ee445781afacfb2144a247e2982}} 
+\index{Alimentos.h@{Alimentos.h}!guardarBaseDeDadosAlimentos@{guardarBaseDeDadosAlimentos}}
+\index{guardarBaseDeDadosAlimentos@{guardarBaseDeDadosAlimentos}!Alimentos.h@{Alimentos.h}}
+\doxysubsubsection{\texorpdfstring{guardarBaseDeDadosAlimentos()}{guardarBaseDeDadosAlimentos()}}
+{\footnotesize\ttfamily void guardar\+Base\+De\+Dados\+Alimentos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a56c039e15457ff77738522e79f80d44b}{Alimentos}} $\ast$}]{lista\+Alimentos }\end{DoxyParamCaption})}
+
+
+
+Função que chama as 3 funções de guardar ficheiros. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Alimentos} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 4
+Here is the caller graph for this function\+:
+% FIG 5
+\mbox{\Hypertarget{Alimentos_8h_ae33dd0953bc23c200db95aac670aff81}\label{Alimentos_8h_ae33dd0953bc23c200db95aac670aff81}} 
+\index{Alimentos.h@{Alimentos.h}!introduzirAlimento@{introduzirAlimento}}
+\index{introduzirAlimento@{introduzirAlimento}!Alimentos.h@{Alimentos.h}}
+\doxysubsubsection{\texorpdfstring{introduzirAlimento()}{introduzirAlimento()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{ListaLigada_8h_a56c039e15457ff77738522e79f80d44b}{Alimentos}}$\ast$ introduzir\+Alimento (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a56c039e15457ff77738522e79f80d44b}{Alimentos}} $\ast$}]{lista\+Alimentos,  }\item[{\mbox{\hyperlink{ListaLigada_8h_a56c039e15457ff77738522e79f80d44b}{Alimentos}} $\ast$}]{novo\+Alimento }\end{DoxyParamCaption})}
+
+
+
+Função para adicionar um cliente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Alimentos} & \\
+\hline
+{\em novo\+Alimento} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Alimentos$\ast$ 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+% FIG 6
+\mbox{\Hypertarget{Alimentos_8h_a625b2c6a386b874e19f6c2c43bfe2987}\label{Alimentos_8h_a625b2c6a386b874e19f6c2c43bfe2987}} 
+\index{Alimentos.h@{Alimentos.h}!lerBaseDeDadosAlimentos@{lerBaseDeDadosAlimentos}}
+\index{lerBaseDeDadosAlimentos@{lerBaseDeDadosAlimentos}!Alimentos.h@{Alimentos.h}}
+\doxysubsubsection{\texorpdfstring{lerBaseDeDadosAlimentos()}{lerBaseDeDadosAlimentos()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{ListaLigada_8h_a56c039e15457ff77738522e79f80d44b}{Alimentos}}$\ast$ ler\+Base\+De\+Dados\+Alimentos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Função que lê o txt de alimentos ao iniciar o programa e guarda numa lista ligada. 
+
+\begin{DoxyReturn}{Returns}
+Alimentos$\ast$ 
+\end{DoxyReturn}
+Verificar se existe na diretoria
+
+iterar a cada linha do ficheiro a fim de atribuir a um objeto e adiciona-\/lo a uma listaHere is the call graph for this function\+:
+% FIG 7
+Here is the caller graph for this function\+:
+% FIG 8
+\mbox{\Hypertarget{Alimentos_8h_a486db8b4d75dd1ee0541f7009958296d}\label{Alimentos_8h_a486db8b4d75dd1ee0541f7009958296d}} 
+\index{Alimentos.h@{Alimentos.h}!libertarMemoriaAlimentos@{libertarMemoriaAlimentos}}
+\index{libertarMemoriaAlimentos@{libertarMemoriaAlimentos}!Alimentos.h@{Alimentos.h}}
+\doxysubsubsection{\texorpdfstring{libertarMemoriaAlimentos()}{libertarMemoriaAlimentos()}}
+{\footnotesize\ttfamily void libertar\+Memoria\+Alimentos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a56c039e15457ff77738522e79f80d44b}{Alimentos}} $\ast$}]{lista }\end{DoxyParamCaption})}
+
+
+
+Liberta a memoria alocada pela lista \& Uso de recursao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista} & \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+% FIG 9
+\mbox{\Hypertarget{Alimentos_8h_af3e4edd38827972d10efcdc29dd80798}\label{Alimentos_8h_af3e4edd38827972d10efcdc29dd80798}} 
+\index{Alimentos.h@{Alimentos.h}!NumPacientesPassamCals@{NumPacientesPassamCals}}
+\index{NumPacientesPassamCals@{NumPacientesPassamCals}!Alimentos.h@{Alimentos.h}}
+\doxysubsubsection{\texorpdfstring{NumPacientesPassamCals()}{NumPacientesPassamCals()}}
+{\footnotesize\ttfamily void Num\+Pacientes\+Passam\+Cals (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a56c039e15457ff77738522e79f80d44b}{Alimentos}} $\ast$}]{lista\+Alimentos,  }\item[{\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$}]{lista\+Cliente }\end{DoxyParamCaption})}
+
+
+
+Função que vê quantos Pacientes passaram o numero de calorias introduzidas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Alimentos} & \\
+\hline
+{\em lista\+Cliente} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 10
+Here is the caller graph for this function\+:
+% FIG 11
+\mbox{\Hypertarget{Alimentos_8h_af66fa7b0cf5aefc93cf5b2793a278b81}\label{Alimentos_8h_af66fa7b0cf5aefc93cf5b2793a278b81}} 
+\index{Alimentos.h@{Alimentos.h}!PacientesComRefeicaoForadeCals@{PacientesComRefeicaoForadeCals}}
+\index{PacientesComRefeicaoForadeCals@{PacientesComRefeicaoForadeCals}!Alimentos.h@{Alimentos.h}}
+\doxysubsubsection{\texorpdfstring{PacientesComRefeicaoForadeCals()}{PacientesComRefeicaoForadeCals()}}
+{\footnotesize\ttfamily void Pacientes\+Com\+Refeicao\+Forade\+Cals (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{ListaLigada_8h_a56c039e15457ff77738522e79f80d44b}{Alimentos}} $\ast$}]{lista\+Alimentos,  }\item[{\mbox{\hyperlink{ListaLigada_8h_a4520f7a19459d0d0997e3708c8899f34}{Cliente}} $\ast$}]{lista\+Cliente,  }\item[{\mbox{\hyperlink{ListaLigada_8h_a7caddd954468fa1fb58b5ad86d48e081}{Plano}} $\ast$}]{lista\+Plano }\end{DoxyParamCaption})}
+
+
+
+Função que Lista todos os Pacientes fora de Calorias em uma certa refeição, por ordem decrescente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lista\+Alimentos} & \\
+\hline
+{\em lista\+Cliente} & \\
+\hline
+{\em lista\+Plano} & \\
+\hline
+\end{DoxyParams}
+for para trocar a ordem dos Pacientes por ordem decrescente
+
+Se nao trocar de ordem dá break
+
+Vários For\textquotesingle{}s e If\textquotesingle{}s para percorrer as varias listas e imprimir os cliente com as respectivas condiçõesHere is the call graph for this function\+:
+% FIG 12
+Here is the caller graph for this function\+:
+% FIG 13

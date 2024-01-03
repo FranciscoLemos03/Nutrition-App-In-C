@@ -1,0 +1,14 @@
+1	16-1-2023	pequeno almoco	ovos	100
+1	17-1-2023	pequeno almoco	ovos	100
+1	18-1-2023	pequeno almoco	ovos	100
+1	18-1-2023	pequeno almoco	pão integral	400
+1	16-1-2023	almoco	truta	400
+1	16-1-2023	almoco	arroz	200
+1	16-1-2023	almoco	vegetais	100
+1	18-1-2023	jantar	francesinha	1500
+2	2-2-2023	pequeno almoco	pao	100
+2	2-2-2023	pequeno almoco	abacate	300
+2	2-2-2023	pequeno almoco	ovos	100
+2	6-2-2023	lanche	bolicao	600
+2	6-2-2023	almoco	bacalhao	1000
+2	18-2-2023	jantar	sushi	1200

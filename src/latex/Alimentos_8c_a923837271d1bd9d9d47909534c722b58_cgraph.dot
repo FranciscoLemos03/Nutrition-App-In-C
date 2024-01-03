@@ -1,0 +1,14 @@
+digraph "guardarBaseDeDadosAlimentos"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="guardarBaseDeDadosAlimentos",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Função que chama as 3 funções de guardar ficheiros."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="guardarBinarioal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Alimentos_8c.html#a3a02ee668a576dd2df8d0a140d9d9600",tooltip="Função que envia dados para o ficheiro txt em binario."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="guardarNormalal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Alimentos_8c.html#a399146bf66513da5ba577e03ad949f94",tooltip="Função que envia dados para o ficheiro txt."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="guardarTabuladoresal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Alimentos_8c.html#a7f46d8e2d3f96ebbc3aa14a2fbdf7d86",tooltip="Guardar dados no ficheiro txt com Tabs."];
+}

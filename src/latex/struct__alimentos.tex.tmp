@@ -1,0 +1,32 @@
+\hypertarget{struct__alimentos}{}\doxysection{\+\_\+alimentos Struct Reference}
+\label{struct__alimentos}\index{\_alimentos@{\_alimentos}}
+
+
+Collaboration diagram for \+\_\+alimentos\+:
+% FIG 0
+\doxysubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{struct__alimentos_afc7f0fcfd1b1ec6cd5734dc8023b12cb}\label{struct__alimentos_afc7f0fcfd1b1ec6cd5734dc8023b12cb}} 
+int {\bfseries id\+\_\+cliente}
+\item 
+\mbox{\Hypertarget{struct__alimentos_a895b4627e4e2eaca6fda0d233df964aa}\label{struct__alimentos_a895b4627e4e2eaca6fda0d233df964aa}} 
+\mbox{\hyperlink{struct__data}{Data}} {\bfseries data}
+\item 
+\mbox{\Hypertarget{struct__alimentos_aefb4b761db1d4320a05524481daabb2b}\label{struct__alimentos_aefb4b761db1d4320a05524481daabb2b}} 
+char {\bfseries refeicao} \mbox{[}20\mbox{]}
+\item 
+\mbox{\Hypertarget{struct__alimentos_acba05583397e7f70acf58931e3b227a7}\label{struct__alimentos_acba05583397e7f70acf58931e3b227a7}} 
+char {\bfseries alimento} \mbox{[}20\mbox{]}
+\item 
+\mbox{\Hypertarget{struct__alimentos_a3d7d54799748fe6b9d067b39bcf968cc}\label{struct__alimentos_a3d7d54799748fe6b9d067b39bcf968cc}} 
+int {\bfseries cal}
+\item 
+\mbox{\Hypertarget{struct__alimentos_abba34897da24e069e1c2bf99a950a27b}\label{struct__alimentos_abba34897da24e069e1c2bf99a950a27b}} 
+struct \mbox{\hyperlink{struct__alimentos}{\+\_\+alimentos}} $\ast$ {\bfseries next}
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+LESI\+\_\+\+PI\+\_\+\+TP\+\_\+22531\+\_\+23006\+\_\+23131/Lista\+Ligada.\+h\end{DoxyCompactItemize}
