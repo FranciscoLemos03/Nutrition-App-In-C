@@ -1,8 +1,13 @@
 # Context
 
-Bachelor's Degree in Computer Systems Engineering 2023-24
+### ENG  
+**Bachelor's Degree in Computer Systems Engineering**  
+This project includes documentation available in both English and Portuguese.  
 
----
+### PT  
+**Licenciatura em Engenharia de Sistemas Informáticos**  
+Este projeto inclui documentação disponível em Inglês e Português.  
+
 
 ## Documentation (English)
 
